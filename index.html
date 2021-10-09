@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <div id="main-page">
+        <div class="header">
+            <h1>Covid-19 Statistics</h1>
+        </div>
+        <div id="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="continents">
+            <button class="butn asia">Asia</button>
+            <button class="butn americas">Americas</button>
+            <button class="butn africa">Africa</button>
+            <button class="butn europe">Europe</button>
+
+        </div>
+        <div class="cases">
+            <button class="buttn confirmed">Confirmed</button>
+            <button class="buttn deaths">Deaths</button>
+            <button class="buttn recovered">Recovered</button>
+            <button class="buttn critical">Critical</button>
+        </div>
+
+        <div> <select name="chooseCountry" id="chooseCountry"></select></div>
+        <div class="countries">
+
+            <div class="button totalCases">
+                <p>Total Cases</p>
+                <p class="num1"></p>
+            </div>
+            <div class="button newCases">
+                <p>New Cases</p>
+                <p class="num2"></p>
+            </div>
+            <div class="button totalDeath">
+                <p>Total Deathes</p>
+                <p class="num3"></p>
+            </div>
+            <div class="button newDeathes">
+                <p>New Deathes</p>
+                <p class="num4"></p>
+            </div>
+            <div class="button totalRecovered">
+                <p>Total Recovered</p>
+                <p class="num5"></p>
+            </div>
+            <div class="button critical">
+                <p>Critical</p>
+                <p class="num6"></p>
+            </div>
+
+        </div>
+        <div class="countriesContainer">
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* body {
+    background: url('../img/covid\ 19_url.jpg') no-repeat center center/cover;
+} */
+
+h1 {
+    border: 1px black solid;
+    background: rosybrown;
+    padding: 5px;
+    margin: 5px;
+}
+
+#chart-container {
+    position: relative;
+    margin: auto;
+    width: 70vw;
+    display: block;
+    height: 70vh
+}
+
+.cases,
+.continents {
+    padding: 10px;
+}
+
+.countries {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    border: 1px black solid;
+    background: rosybrown;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: sandybrown;
+}
+
+.butn {
+    border: 1px black solid;
+    background: rosybrown;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.butn:hover {
+    background-color: sandybrown;
+}
+
+.buttn {
+    border: 1px black solid;
+    background: rosybrown;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttn:hover {
+    background-color: sandybrown;
+}
